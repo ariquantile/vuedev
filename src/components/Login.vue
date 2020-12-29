@@ -1,10 +1,6 @@
 <template>
- <div>
-<div
-    v-ripple="{ center: true }"
-    class="text-center elevation-2 pa-12 headline"
-  >
-    HTML element with centered ripple
+  <div style="background-image: url('https://wallpapercave.com/wp/JAA5qgn.jpg'); height:100vh">
+  
+  <h1 style="color:red">Login Page</h1>
   </div>
- </div>
 </template>
