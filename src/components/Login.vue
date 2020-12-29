@@ -1,30 +1,10 @@
 <template>
-    <div>
-         <h1>Login Page</h1>
-
-<v-btn
-      depressed
-      color="primary"
-    >
-      Primary
-    </v-btn>
-
-    </div>
+ <div>
+<div
+    v-ripple="{ center: true }"
+    class="text-center elevation-2 pa-12 headline"
+  >
+    HTML element with centered ripple
+  </div>
+ </div>
 </template>
-
-
-<script>
-export default {
-     data(){
-       return{
-         
-       }
-     }
-}
-</script>
-
-<style scoped>
-
-
-
-</style>

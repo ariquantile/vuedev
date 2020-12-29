@@ -13,8 +13,10 @@ const router = new VueRouter({
   mode: 'history',
 })
 
+import vuetify from './plugins/vuetify';
 
 new Vue({
   router,
-  render: h => h(App),
+  vuetify,
+  render: h => h(App)
 }).$mount('#app')
